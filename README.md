@@ -1,9 +1,8 @@
 # cowsay-server
 ```
  _________________________________________
-/ ANY SUFFICIENTLY ADVANCED TECHNOLOGY IS \
-| INDISTINGUISHABLE FROM MAGIC, SO THEY   |
-\ SAY                                     /
+/ COWSAY-SERVER IS A SIMPLE PYTHON SERVER \
+\ FOR SERVING COWSAY PHRASES              /
  -----------------------------------------
         \   ^__^
          \  (oo)\_______
