@@ -11,3 +11,15 @@
                 ||----w |
                 ||     ||
 ```
+
+## Requirements
+- Python 3
+- cowsay
+
+## Dependencies
+- cherrypy
+
+## Usage
+`python3 main.py --file FILE`
+
+Where `FILE` is the file containing the phrases to use. The file should have one phrase per line.
