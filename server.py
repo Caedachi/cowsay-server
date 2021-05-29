@@ -9,7 +9,7 @@ class CowsayServer:
         self.filename = filename
 
     @cherrypy.expose
-    def index(self):
+    def cowsay(self):
         phrases = load_phrases(self.filename)
         random_phrase = choice(phrases)
 
