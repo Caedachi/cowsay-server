@@ -1,4 +1,5 @@
 import subprocess
+import sys
 
 from typing import List
 
@@ -10,4 +11,4 @@ def load_phrases(filename: str) -> List[str]:
 
 def cowsay(phrase: str) -> str:
     proc = subprocess.run(['cowsay', phrase], capture_output=True)
-    return proc.stdout.decode('utf-8').upper()
+    return proc.stdout.decode(sys.getdefaultencoding()).upper()
